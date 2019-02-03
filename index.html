@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Harish | PortFolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/circle.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+    <div class="navbar section-border-top-bottom" role="navigation">
+        <div class="navbar-list-wrap">
+            <ul class="navbar-list">
+                <li><a class="navbar-item" onclick="scrollToTop()">Home</a></li>
+                <li><a class="navbar-item" onclick="scrollTorr('profile')">Profile</a></li>
+                <li><a class="navbar-item" onclick="scrollTorr('resume')">Resume</a></li>
+                <li><a class="navbar-item" onclick="scrollTorr('portfolio')">Portfolio</a></li>
+                <li><a class="navbar-item" onclick="scrollTorr('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-page" id="home">
+        <section class="section-home box-shadow">
+            <nav class="intro border-bottom padding-top-bottom-48px">
+                <div class="intro-row row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="myphoto"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="intro-description">
+                            <h1>HARISH KARYATTU</h1>
+                            <h3>Master of Information Technology | Deakin University</h3>
+                            <div class="social-links">
+                                <ul class="social-list">
+                                    <li><a class="social-icons" href="https://www.facebook.com/harish.kmohan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="social-icons" href="https://www.linkedin.com/in/harish-kmohan/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="social-icons" href="https://github.com/harishkaryattu" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <!-- <li><a class="social-icons" href="https://stackoverflow.com/users/7773813/sidharth-anil" target="_blank"><i class="fa fa-stack-overflow"></i></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="menu padding-top-bottom-48px">
+                <div class="menu-row">
+                    <ul class="menu-list">
+                        <li>
+                            <a onclick="scrollTorr('profile')" class="menu-item">
+                                <div class="foto">
+                                    <img src="assets/images/profile.png" class="menu-image" />
+                                </div>
+                                <div class="name">Profile</div>
+                            </a>
+                            <a onclick="scrollTorr('resume')" class="menu-item">
+                                <div class="foto">
+                                    <img src="assets/images/resume.png" class="menu-image" />
+                                </div>
+                                <div class="name">Resume</div>
+                            </a>
+                            <a onclick="scrollTorr('portfolio')" class="menu-item">
+                                <div class="foto">
+                                    <img src="assets/images/portfolio.png" class="menu-image" />
+                                </div>
+                                <div class="name">Portfolio</div>
+                            </a>
+
+                            <a onclick="scrollTorr('contact')" class="menu-item">
+                                <div class="foto">
+                                    <img src="assets/images/contact.png" class="menu-image" />
+                                </div>
+                                <div class="name">Contact</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <div class="material-divider"></div>
+        <section class="section-profile box-shadow" id="profile">
+            <header class="head padding-top-bottom-30px padding-left-right-20px border-bottom container">
+                <div class="head-row row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="photo">
+                            <img src="assets/images/profile.png" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="title">
+                            <h2 class="head-title">Profile</h2>
+                            <h4 class="head-subtitle">A Brief About Me</h4>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="profile-content padding-top-bottom-30px border-bottom">
+                <div class="profile-content-container">
+                    <div class="content-row padding-left-right-20px">
+                        <div class="coloumn-left">
+                            <div class="info-column">
+                                <h3 class="title">Hello Folks</h3>
+                                <p>I am an IT professional with 3 years’ experience as a software developer. Strong Technical expertise in web development and IT services to provide exceptional customer support and ensures smooth business flow. Demonstrated success in designing and implementing various system solutions to resolve critical operational issues. Currently pursuing Master of Information Technology Professional with specialization in Software Development and IT strategy to enhance knowledge.</p>
+                            </div>
+                            <p>
+                                <button class="button contact-me" type="button" onclick="scrollTorr('contact')">Contact Me Now</button>
+                                <a class="button download-cv" type="button" href="https://uptowork.com/mycv/sidharthanil" target="_blank">Download CV</a>
+                            </p>
+                        </div>
+                        <div class="coloumn-right">
+                            <div class="grey-block-table info-column">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="details">Name</td>
+                                            <td class="description">Harish Karyattu</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Date of birth</td>
+                                            <td class="description">October 9, 1992</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Email</td>
+                                            <td class="description">harish.kmohan@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Phone</td>
+                                            <td class="description">+61 450 783 057</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="details">Website</td>
+                                            <td class="description">www.HarishKaryattu.github.io</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-info border-bottom padding-top-bottom-30px padding-left-right-20px">
+                <div class="info-container">
+                    <div class="info-title">
+                        <h3>What i'm doing</h3>
+                    </div>
+                    <div class="info-details">
+                            <div class="circle-block hover-animate">
+                                    <span class="icon hover-animate"><i class="fa fa-desktop"></i></span>
+                                    <span class="name hover-animate">Web</span>
+                                </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-android"></i></span>
+                            <span class="name hover-animate">Android</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-desktop"></i></span>
+                            <span class="name hover-animate">System Applications</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="material-divider"></div>
+        <section class="section-resume box-shadow" id="resume">
+            <header class="head padding-top-bottom-30px padding-left-right-20px border-bottom">
+                <div class="head-row row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="photo">
+                            <img src="assets/images/resume.png" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="title">
+                            <h2 class="head-title">Resume</h2>
+                            <h4 class="head-subtitle">My Academic Qualifications</h4>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="section-resume-details padding-top-bottom-30px padding-left-right-20px border-bottom">
+                <div class="resume-details-row row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="resume-content-title">Education</h2>
+                        <div class="resume-content-block">
+                            <div id="education-slider" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="details">University</td>
+                                                <td class="description">Deakin University, Australia</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Period</td>
+                                                <td class="description">2018 - 2019</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Degree</td>
+                                                <td class="description">Masters</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Course</td>
+                                                <td class="description">Master of Information Technology (Professional)</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">GPA</td>
+                                                <td class="description">(Expected in 2019)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>Master of Information Technology Professional with specialization in Software Development and IT strategy 
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="details">University</td>
+                                                <td class="description">Calicut University, India</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Period</td>
+                                                <td class="description">2010 - 2014</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Degree</td>
+                                                <td class="description">Bachelor of Technology</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Course</td>
+                                                <td class="description">Electronics & Communication Engineering</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">CGPA/Percentage</td>
+                                                <td class="description">6.76</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>Bachelors of Technology in Electronics and Communication engineering with majors on Communication, Embedded Programming and Control Systems
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="resume-content-title">Work</h2>
+                        <div class="resume-content-block">
+                            <!-- <div id="education-slider" class="owl-carousel owl-theme"> -->
+                                <div class="item">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="details">Company</td>
+                                                <td class="description">Tata Consultancy Services</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Address</td>
+                                                <td class="description">Cochin, India</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Period</td>
+                                                <td class="description">Jan 2015 - Feb 2018</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Position</td>
+                                                <td class="description">Systems Engineer</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details"></td>
+                                                <td class="description"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details"></td>
+                                                <td class="description"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    
+                                        <ul><li>Integrated and managed the design process for the development and enhancement initiatives of various applications.</li>
+                                            <li>Analysed designs, developed and executed custom application features and functions, in strict adherence to technical and functional programming standards.</li>
+                                            <li>Created design documents and effort estimates for the development and enhancement initiatives.</li>
+                                                    <li>Evaluated, designed, developed, tested and debugged application changes - preparation of quality reports, problem analysis and resolution.</li>
+                                                            <li>Plan and implement every needed process steps as defined in methodologies.</li>
+                                                            <li>Coordinated and involved in structured peer reviews and walkthroughs.</li>
+                                                            <li>Provided prime assistance toward application releases and installation into production
+                                            under given direction.</li>
+                                            <li>Developed operational documents for Application.</li>
+                                            <li>Designed problem analysis document and fixed customer identified problems.</li>
+                                        </ul>
+                                    
+                                        </div>
+                                <!-- <div class="item">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="details">Company Name</td>
+                                                <td class="description">Irisind</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Address</td>
+                                                <td class="description">Cochin, India</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Period</td>
+                                                <td class="description">Jan 2016 - Aug 2017</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details">Position</td>
+                                                <td class="description">Software Developer</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details"></td>
+                                                <td class="description"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="details"></td>
+                                                <td class="description"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <p>Developed productivity apps using Android and iOS SDK. Designed user interfaces of Web and Mobile applications.Increasing app perfomance using code optimisations and debugging. Directed and assisted team of 3 in creating
+                                        flawless app performance.</p>
+                                </div> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills border-bottom padding-top-bottom-30px padding-left-right-20px">
+                <div class="skills-row row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="skills-content-title">Professional Skills</h2>
+                        <label class="progress-bar-label">Web Development</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">Back-end coding</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">Project Management</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">UX/UI Design</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                <span>50%</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="skills-content-title">Additional Skills</h2>
+                        <div class="additional-skills">
+                            <div class="circle-progress-block">
+                                <div class="c100 p85 circle-progress">
+                                    <span>85%</span>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <label class="circle-progress-label">Communication</label>
+                            </div>
+                            <div class="circle-progress-block">
+                                <div class="c100 p80 circle-progress">
+                                    <span>80%</span>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <label class="circle-progress-label">Problem Solving</label>
+                            </div>
+                            <div class="circle-progress-block">
+                                <div class="c100 p85 circle-progress">
+                                    <span>85%</span>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <label class="circle-progress-label">Team Player</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-row row" style="margin-top:10px">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="skills-content-title">Language Skills</h2>
+                        <div class="language-skills">
+                            <div class="progress">
+                                <label class="progress-bar-label">English</label>
+                                <span class="ratyli" data-rate="4"></span>
+                            </div>
+                            <div class="progress">
+                                <label class="progress-bar-label">Malayalam (Native)</label>
+                                <span class="ratyli" data-rate="5"></span>
+                            </div>
+                            <div class="progress">
+                                <label class="progress-bar-label">Hindi</label>
+                                <span class="ratyli" data-rate="3"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2 class="skills-content-title">Knowledge</h2>
+                        <div class="knowledge-skills">
+                            <div class="col-sm-6 col-md-6">
+                                <ul>
+                                    <li>HTML5,CSS3 & Javascript</li>
+                                    <li>.Net,React,Node.js</li>
+                                    <li>UX/UI Design</li>
+                                   
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <ul>
+                                    <li>Android</li>
+                                    <li>Microsoft Office</li>  
+                                    <li>Embedded Programming</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-info border-bottom padding-top-bottom-30px padding-left-right-20px">
+                <div class="info-container">
+                    <div class="info-title">
+                        <h3>Hobbies & Interests</h3>
+                    </div>
+                    <div class="info-details">
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-headphones"></i></span>
+                            <span class="name hover-animate">Music</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-rocket"></i></span>
+                            <span class="name hover-animate">Travelling</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-gamepad"></i></span>
+                            <span class="name hover-animate">Sports</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-book"></i></span>
+                            <span class="name hover-animate">Reading</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-wrench"></i></span>
+                            <span class="name hover-animate">DIY Projects</span>
+                        </div>
+                        <div class="circle-block hover-animate">
+                            <span class="icon hover-animate"><i class="fa fa-github"></i></span>
+                            <span class="name hover-animate">Coding</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-info padding-top-bottom-30px padding-left-right-20px">
+                <div class="container">
+                    <div class="info-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="experience-row row">
+                        <div class="total-numbers col-xs-12 col-sm-3 col-sm-offset-3">
+                            <div class="iconspace arrow_box"><i class="fa fa-birthday-cake"></i></div>
+                            <div class="info-text">
+                                <span class="count">3</span>year
+                            </div>
+                        </div>
+                        <div class="total-numbers col-xs-12 col-sm-3">
+                            <div class="iconspace arrow_box"><i class="fa fa-thumbs-o-up"></i></div>
+                            <div class="info-text">
+                                <span class="count">3</span>projects
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="material-divider"></div>
+        <section class="section-portfolio box-shadow" id="portfolio">
+            <header class="head padding-top-bottom-30px padding-left-right-20px border-bottom">
+                <div class="head-row row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="photo">
+                            <img src="assets/images/portfolio.png" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="title">
+                            <h2 class="head-title">Portfolio</h2>
+                            <h4 class="head-subtitle">Some of My Works</h4>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="portfolio-details padding-top-bottom-30px padding-left-right-20px">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-2 col-xs-12">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/images/img1.jpg">
+                            <div class="overlay">
+                                <h2>Eversource</h2>
+                                <button type="button" class="info" data-toggle="modal" data-target="#modal1">View Details</button>
+                            </div>
+                            <div id="modal1" class="modal fade">
+                                <div class="modal-dialog modal-lg">
+
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h3 class="modal-title">Eversource</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-responsive" src="assets/images/eversource.jpg" />
+                                            <div class="text">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="details">Status</td>
+                                                            <td class="description">March 2015-February 2018</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="details">Client</td>
+                                                            <td class="description">Eversource</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>Eversource Energy (formerly known as Northeast Utilities) is a publicly traded, Fortune 500 energy company headquartered in Hartford, Connecticut and Boston, Massachusetts, with several regulated subsidiaries offering retail electricity, natural gas service and water service to approximately 4 million [6] customers in Connecticut, Massachusetts and New Hampshire.</p>
+                                                <p>I have associated to work on various applications including web and in-house .net tools in order to ensure 
+                                                    the smooth workflow of Eversource organization.
+                                                </p>
+                                                <a class="btn btn-primary" href="http://www.eversource.com/" target="_blank">See Live</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/images/img1.jpg" />
+                            <div class="overlay">
+                                <h2>NoteIt</h2>
+                                <button type="button" class="info" data-toggle="modal" data-target="#modal2">View Details</button>
+                            </div>
+                            <div id="modal2" class="modal fade">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h3 class="modal-title">NoteIt</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-responsive" src="assets/images/NoteIt.jpg">
+                                            <div class="text">
+
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="details">Status</td>
+                                                            <td class="description">Pre-Production</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="details">Client</td>
+                                                            <td class="description">Academic Project</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>NoteIt is a web application which will take notes by recognising voice input from the user which makes a hands-free approach. What makes this app distinguish from others is not only the error free process but also the styling capability based on voice commands. This will perform as a strong note taking tool which will be based on speech to text functionality and will act as a perfect solution.</p>
+                                                <p>This solution has been completed using Node.js, bootstrap and IBM cloud services.</p>
+                                                <a class="btn btn-primary" href="https://sit737prac5.mybluemix.net/" target="_blank">See Live</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </section>
+        <div class="material-divider"></div>
+        <section class="section-contact box-shadow" id="contact">
+            <header class="head padding-top-bottom-30px padding-left-right-20px border-bottom">
+                <div class="head-row row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="photo">
+                            <img src="assets/images/contact.png" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="title">
+                            <h2 class="head-title">Contact</h2>
+                            <h4 class="head-subtitle">Get in touch with me</h4>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="contact-details padding-top-bottom-30px padding-left-right-20px">
+                <!-- start row -->
+                <div class="contact-row row">
+                    <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                        <div class="circle-contact">
+                            <span class="icon"><i class="fa fa-mobile"></i></span>
+                            <h3><span class="name">Phone</span></h3>
+                            <h4><a href="tel:+917293294327">+61 450 783 057</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="circle-contact ">
+                            <span class="icon"><i class="fa fa-envelope"></i></span>
+                            <h3><span class="name">Mail me</span></h3>
+                            <h4><a href="mailto:mail@sidharthanil.com" class="name">harish.kmohan@gmail.com</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end row -->
+            </section>
+        </section>
+
+        <script src="https://use.fontawesome.com/5de98ea1ef.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+        <script src="js/jquery.ratyli.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
